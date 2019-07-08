@@ -5,7 +5,7 @@ const client = new Client('https://api.steemit.com');
 steem.api.setOptions({  });
 bluebird.promisifyAll(client);
 
-const privKey ='';
+const privKey ='5JsSuqniipSkMj8BNsyTfUp8heNijrZA1yKndK8XQov2F6ZF9f8';
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const sendTokens = (parent_author,author) => {

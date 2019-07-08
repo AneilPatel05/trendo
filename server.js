@@ -44,8 +44,11 @@ const getTransactions = ops => {
           block: op.block,
           status:"pending"
         };
-        if(transaction.body.match(/!trendotoken/i)){
+        let body = params.body
+        
+        if(body.match(/!trendotoken/i)){
           console.log("Trendo called!!")
+          console.log(body)
           //Save  call
           Call.create(transaction)
           
