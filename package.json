@@ -14,7 +14,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "lightrpc": "^1.0.0-beta.4",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.19",
     "mongoose": "^5.2.4",
     "steem": "^0.7.4"
   }
